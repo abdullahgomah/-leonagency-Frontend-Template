@@ -311,3 +311,22 @@ main .introduction {
 .contact-info .heading.green {
   color: #10cab7;
 }
+
+
+@media screen and (max-width:768px) {
+  .grid {
+    grid-template-columns: 1fr;
+  }
+  .feature:nth-child(2) {
+    box-shadow: none;
+  }
+  .grid.col-2 {
+    grid-template-columns: 1fr;
+  }
+  .section.services {
+    grid-template-areas:none;
+  }
+  .services .box {
+    display: none;
+  }
+}
