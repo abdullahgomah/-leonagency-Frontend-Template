@@ -329,4 +329,69 @@ main .introduction {
   .services .box {
     display: none;
   }
+
+  .section__heading {
+    display: block;
+    height: fit-content;
+    /* background: yellow; */
+    text-align: center;
+  }
+
+  .section__heading p{
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 20px;
+  }
+
+  .section__heading_title {
+    font-size:55px; 
+  }
+
+  .grid.col-3 {
+    flex-direction: column;
+  }
+
+  .section.services {
+    display: block;
+  }
+  .section.services   {
+    width: 100%;
+  }
+  .grid.col-2 .item {
+    width: 100%;
+    padding: 1rem;
+  }
+
+  .about {
+    padding: 0 1rem;
+  }
+  .about-box {
+    display: none !important; 
+  }
+  .about-container {
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+  }
+  .about .info {
+    width: 90% !important;
+    margin: 0 auto;
+  }
+  .contact-info {
+    width: 90%;
+    margin:0 auto;
+  }
+  
+  .contact-info .heading {
+    color: #2c4755;
+    font-size: 25px;
+  }
+  
+  .contact-info .heading.green {
+    color: #10cab7;
+    cursor: pointer;
+  }
 }
